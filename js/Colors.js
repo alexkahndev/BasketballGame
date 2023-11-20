@@ -1,0 +1,473 @@
+// Copywrite: All Rights Reserved (c) 2023, Alex Kahn
+
+export const GreyScaleColorsObject = {
+	Grey0: 0x000000,
+	Grey1: 0x0a0a0a,
+	Grey2: 0x141414,
+	Grey3: 0x1e1e1e,
+	Grey4: 0x282828,
+	Grey5: 0x323232,
+	Grey6: 0x3c3c3c,
+	Grey7: 0x464646,
+	Grey8: 0x505050,
+	Grey9: 0x5a5a5a,
+	Grey10: 0x646464,
+	Grey11: 0x6e6e6e,
+	Grey12: 0x787878,
+	Grey13: 0x828282,
+	Grey14: 0x8c8c8c,
+	Grey15: 0x969696,
+	Grey16: 0xa0a0a0,
+	Grey17: 0xaaaaaa,
+	Grey18: 0xb4b4b4,
+	Grey19: 0xbebebe,
+	Grey20: 0xc8c8c8,
+	Grey21: 0xd2d2d2,
+	Grey22: 0xdcdcdc,
+	Grey23: 0xe6e6e6,
+	Grey24: 0xf0f0f0,
+	Grey25: 0xffffff,
+};
+
+export const RedScaleColorsObject = {
+	Red0: 0xff0000,
+	Red1: 0xf50000,
+	Red2: 0xeb0000,
+	Red3: 0xe10000,
+	Red4: 0xd70000,
+	Red5: 0xcd0000,
+	Red6: 0xc30000,
+	Red7: 0xb90000,
+	Red8: 0xaf0000,
+	Red9: 0xa50000,
+	Red10: 0x9b0000,
+	Red11: 0x910000,
+	Red12: 0x870000,
+	Red13: 0x7d0000,
+	Red14: 0x730000,
+	Red15: 0x690000,
+	Red16: 0x5f0000,
+	Red17: 0x550000,
+	Red18: 0x4b0000,
+	Red19: 0x410000,
+	Red20: 0x370000,
+	Red21: 0x2d0000,
+	Red22: 0x230000,
+	Red23: 0x190000,
+	Red24: 0x0f0000,
+};
+
+export const OrangeScaleColorsObject = {
+	Orange0: 0xffa500,
+	Orange1: 0xf59400,
+	Orange2: 0xeb8c00,
+	Orange3: 0xe18400,
+	Orange4: 0xd97c00,
+	Orange5: 0xcf7400,
+	Orange6: 0xc76c00,
+	Orange7: 0xbd6400,
+	Orange8: 0xb55c00,
+	Orange9: 0xab5400,
+	Orange10: 0xa34c00,
+	Orange11: 0x994400,
+	Orange12: 0x8f3c00,
+	Orange13: 0x853400,
+	Orange14: 0x7b2c00,
+	Orange15: 0x712400,
+	Orange16: 0x671c00,
+	Orange17: 0x5d1400,
+	Orange18: 0x530c00,
+	Orange19: 0x490400,
+	Orange20: 0x3f0000,
+	Orange21: 0x350000,
+	Orange22: 0x2b0000,
+	Orange23: 0x210000,
+	Orange24: 0x170000,
+};
+
+export const YellowScaleColorsObject = {
+	Yellow0: 0xffff00,
+	Yellow1: 0xf5f500,
+	Yellow2: 0xebeb00,
+	Yellow3: 0xe1e100,
+	Yellow4: 0xd7d700,
+	Yellow5: 0xcdcd00,
+	Yellow6: 0xc3c300,
+	Yellow7: 0xb9b900,
+	Yellow8: 0xafaf00,
+	Yellow9: 0xa5a500,
+	Yellow10: 0x9b9b00,
+	Yellow11: 0x919100,
+	Yellow12: 0x878700,
+	Yellow13: 0x7d7d00,
+	Yellow14: 0x737300,
+	Yellow15: 0x696900,
+	Yellow16: 0x5f5f00,
+	Yellow17: 0x555500,
+	Yellow18: 0x4b4b00,
+	Yellow19: 0x414100,
+	Yellow20: 0x373700,
+	Yellow21: 0x2d2d00,
+	Yellow22: 0x232300,
+	Yellow23: 0x191900,
+	Yellow24: 0x0f0f00,
+};
+
+export const GreenScaleColorsObject = {
+	Green0: 0x00ff00,
+	Green1: 0x00f500,
+	Green2: 0x00eb00,
+	Green3: 0x00e100,
+	Green4: 0x00d700,
+	Green5: 0x00cd00,
+	Green6: 0x00c300,
+	Green7: 0x00b900,
+	Green8: 0x00af00,
+	Green9: 0x00a500,
+	Green10: 0x009b00,
+	Green11: 0x009100,
+	Green12: 0x008700,
+	Green13: 0x007d00,
+	Green14: 0x007300,
+	Green15: 0x006900,
+	Green16: 0x005f00,
+	Green17: 0x005500,
+	Green18: 0x004b00,
+	Green19: 0x004100,
+	Green20: 0x003700,
+	Green21: 0x002d00,
+	Green22: 0x002300,
+	Green23: 0x001900,
+	Green24: 0x000f00,
+};
+
+export const BlueScaleColorsObject = {
+	Blue0: 0x0000ff,
+	Blue1: 0x0000f5,
+	Blue2: 0x0000eb,
+	Blue3: 0x0000e1,
+	Blue4: 0x0000d7,
+	Blue5: 0x0000cd,
+	Blue6: 0x0000c3,
+	Blue7: 0x0000b9,
+	Blue8: 0x0000af,
+	Blue9: 0x0000a5,
+	Blue10: 0x00009b,
+	Blue11: 0x000091,
+	Blue12: 0x000087,
+	Blue13: 0x00007d,
+	Blue14: 0x000073,
+	Blue15: 0x000069,
+	Blue16: 0x00005f,
+	Blue17: 0x000055,
+	Blue18: 0x00004b,
+	Blue19: 0x000041,
+	Blue20: 0x000037,
+	Blue21: 0x00002d,
+	Blue22: 0x000023,
+	Blue23: 0x000019,
+	Blue24: 0x00000f,
+};
+
+export const IndigoScaleColorsObject = {
+	Indigo0: 0x4b0082,
+	Indigo1: 0x4700a0,
+	Indigo2: 0x4000bf,
+	Indigo3: 0x3700d6,
+	Indigo4: 0x2e00e3,
+	Indigo5: 0x2400f0,
+	Indigo6: 0x1a00f7,
+	Indigo7: 0x1000ff,
+	Indigo8: 0x0b0bff,
+	Indigo9: 0x1717ff,
+	Indigo10: 0x2323ff,
+	Indigo11: 0x2f2fff,
+	Indigo12: 0x3b3bff,
+	Indigo13: 0x4747ff,
+	Indigo14: 0x5353ff,
+	Indigo15: 0x5f5fff,
+	Indigo16: 0x6b6bff,
+	Indigo17: 0x7777ff,
+	Indigo18: 0x8383ff,
+	Indigo19: 0x8f8fff,
+	Indigo20: 0x9b9bff,
+	Indigo21: 0xa7a7ff,
+	Indigo22: 0xb3b3ff,
+	Indigo23: 0xbfbfff,
+	Indigo24: 0xcbcbff,
+};
+
+export const VioletScaleColorsObject = {
+	Violet0: 0xee82ee,
+	Violet1: 0xe679e6,
+	Violet2: 0xdb70db,
+	Violet3: 0xd268d2,
+	Violet4: 0xc160c1,
+	Violet5: 0xb758b7,
+	Violet6: 0xad50ad,
+	Violet7: 0xa448a4,
+	Violet8: 0x9a409a,
+	Violet9: 0x903890,
+	Violet10: 0x862f86,
+	Violet11: 0x7c277c,
+	Violet12: 0x722f72,
+	Violet13: 0x682768,
+	Violet14: 0x5e1f5e,
+	Violet15: 0x541754,
+	Violet16: 0x4a0f4a,
+	Violet17: 0x400740,
+	Violet18: 0x360036,
+	Violet19: 0x2c002c,
+	Violet20: 0x220022,
+	Violet21: 0x180018,
+	Violet22: 0x0e000e,
+	Violet23: 0x040004,
+	Violet24: 0x000000,
+};
+
+export const aestheticPaletteColors = {
+	Color0: 0x212121, // Dark Grey
+	Color1: 0x464646, // Grey
+	Color2: 0x696969, // Dim Grey
+	Color3: 0x8c8c8c, // Silver
+	Color4: 0xb0b0b0, // Light Grey
+	Color5: 0xd4d4d4, // Gainsboro
+	Color6: 0xf4f4f4, // Light Grey
+	Color7: 0xffffff, // White
+	Color8: 0xc4dfe6, // Powder Blue
+	Color9: 0xa2c4c9, // Cadet Blue
+	Color10: 0x87afc7, // Light Steel Blue
+	Color11: 0x6d9ac9, // Sky Blue
+	Color12: 0x5885a2, // Steel Blue
+	Color13: 0x4472a2, // Dark Slate Blue
+	Color14: 0x2f4f84, // Dark Blue
+	Color15: 0x1c3660, // Midnight Blue
+	Color16: 0xd9bf77, // Gold Sand
+	Color17: 0xd1a56d, // Tan
+	Color18: 0xc28e5e, // Brownish
+	Color19: 0xac725e, // Rosy Brown
+	Color20: 0x9b6a6c, // Dusty Rose
+	Color21: 0x88617e, // Dark Purple
+	Color22: 0x724f6c, // Plum
+	Color23: 0x5c3f63, // Dark Plum
+	Color24: 0x492b50, // Aubergine
+};
+
+export const BrownScaleColors = [
+	0x331900, 0x663300, 0x994d00, 0xcc6600, 0xff8000, 0xff9933, 0xffb366,
+	0xffcc99, 0xffe6cc, 0xfff5ee,
+];
+
+export const PinkScaleColors = [
+	0x330019, 0x660033, 0x99004d, 0xcc0066, 0xff0080, 0xff3399, 0xff66b3,
+	0xff99cc, 0xffcce6, 0xfff5f5,
+];
+
+export const CyanScaleColors = [
+	0x003333, 0x006666, 0x009999, 0x00cccc, 0x00ffff, 0x33ffff, 0x66ffff,
+	0x99ffff, 0xccffff, 0xeeffff,
+];
+
+export const GreyBlueScaleColors = [
+	0x192933, 0x335566, 0x4d7999, 0x66aacc, 0x80ccff, 0x99d9ff, 0xb3e6ff,
+	0xccf2ff, 0xe6f9ff, 0xf5fdff,
+];
+
+export const WarmTonesScaleColors = [
+	0x996633, 0xcc9933, 0xffcc33, 0xffcc66, 0xffcc99, 0xffcccc, 0xffcccc,
+	0xffccff, 0xffccff, 0xffccff,
+];
+
+export const SunsetScaleColors = [
+	0xff3300, 0xff6600, 0xff9900, 0xffcc00, 0xffea00, 0xffed33, 0xfff066,
+	0xfff399, 0xfffa66, 0xfffcc2,
+];
+
+export const OceanicScaleColors = [
+	0x001a33, 0x003366, 0x004d99, 0x0066cc, 0x0080ff, 0x3399ff, 0x66b3ff,
+	0x99ccff, 0xc2e0ff, 0xedf5ff,
+];
+
+export const AutumnalScaleColors = [
+	0xcc6600, 0xcc8000, 0xcc9933, 0xccb366, 0xcca080, 0xcca699, 0xccc2b3,
+	0xcccccd, 0xced9e6, 0xe6ecf5,
+];
+
+export const MintyScaleColors = [
+	0x00cc66, 0x33cc99, 0x66cc99, 0x99cc99, 0xb3cc99, 0xc2cc99, 0xcccc99,
+	0xd9f2e6, 0xe6f9f5, 0xf5fcfd,
+];
+
+export const EarthyScaleColors = [
+	0x4d3319, 0x996633, 0xcc9966, 0xffcc99, 0xffe0b3, 0xffedcc, 0xfff2d9,
+	0xfff9e6, 0xfffcf2, 0xfffef5,
+];
+
+export const LavenderScaleColors = [
+	0x330033, 0x660066, 0x990099, 0xcc00cc, 0xff00ff, 0xcc33cc, 0x993399,
+	0x663366, 0x330033, 0x1a001a,
+];
+
+export const FireScaleColors = [
+	0xff3300, 0xff6600, 0xff9900, 0xcc9900, 0xcc6600, 0xcc3300, 0x993300,
+	0x663300, 0x330000, 0x1a0000,
+];
+
+export const WinterChillScaleColors = [
+	0x003366, 0x005699, 0x007ab8, 0x0099cc, 0x00b3e6, 0x33bbff, 0x66ccff,
+	0x99d9ff, 0xccf2ff, 0xedf5ff,
+];
+
+export const GoldenrodScaleColors = [
+	0xcc9900, 0xccb200, 0xcccc00, 0xccd633, 0xcccc66, 0xcccc99, 0xccccbd,
+	0xcccccc, 0xccd9e6, 0xe6ecf5,
+];
+
+export const MagentaScaleColors = [
+	0xff0066, 0xff0080, 0xff0099, 0xff00b3, 0xff00cc, 0xff00e5, 0xff00ff,
+	0xff1aff, 0xff33ff, 0xff66ff,
+];
+
+export const PastelRainbowScaleColors = [
+	0xff6666, 0xff9966, 0xffcc66, 0xffff66, 0xccff66, 0x99ff66, 0x66ff66,
+	0x66ff99, 0x66ffcc, 0x66ffff,
+];
+
+export const TropicalSunsetScaleColors = [
+	0xff4000, 0xff8000, 0xffbf00, 0xffe040, 0xffe080, 0xffe0bf, 0xffe0df,
+	0xffe0ff, 0xdfc0ff, 0xbf80ff,
+];
+
+export const SpringBlossomScaleColors = [
+	0xff80bf, 0xffa0bf, 0xffc0bf, 0xffe0bf, 0xffdfc0, 0xffd0bf, 0xffc0bf,
+	0xffb0bf, 0xffa0bf, 0xff80bf,
+];
+
+export const CitrusBurstScaleColors = [
+	0xffcc00, 0xffd633, 0xffe066, 0xffeb99, 0xfff5cc, 0xffffe0, 0xd9ffb3,
+	0xb3ff80, 0x80ff66, 0x4dff33,
+];
+
+export const MoonlitNightScaleColors = [
+	0x000022, 0x000044, 0x000066, 0x000088, 0x0000aa, 0x0000cc, 0x0000ee,
+	0x1111ff, 0x3333ff, 0x6666ff,
+];
+
+export const ElectricNeonScaleColors = [
+	0x00ff00, 0x33ff33, 0x66ff66, 0x99ff99, 0xccffcc, 0xffffff, 0xccccff,
+	0x9999ff, 0x6666ff, 0x3333ff,
+];
+
+export const CherryBlossomScaleColors = [
+	0xff99aa, 0xffaacc, 0xffbbee, 0xffccdd, 0xffddee, 0xffeeff, 0xffddff,
+	0xffccff, 0xffbbff, 0xffaaff,
+];
+
+export const PumpkinSpiceScaleColors = [
+	0xff9900, 0xffa020, 0xffb040, 0xffc060, 0xffd080, 0xffe0a0, 0xfff0c0,
+	0xffeec0, 0xffd0a0, 0xffb080,
+];
+
+export const JungleAdventureScaleColors = [
+	0x336600, 0x4d9900, 0x66cc00, 0x80ff00, 0x99ff33, 0xb3ff66, 0xccff99,
+	0xd9ffcc, 0xe6ffec, 0xf5fff5,
+];
+
+export const DeepSeaScaleColors = [
+	0x003366, 0x005599, 0x0077cc, 0x0099ff, 0x33aaff, 0x66bbff, 0x99ccff,
+	0xccddff, 0xe6eeff, 0xf5f5ff,
+];
+
+export const TerraCottaScaleColors = [
+	0xffcc99, 0xffd9b3, 0xffe6cc, 0xfff2e6, 0xffcccc, 0xffb3a6, 0xff9980,
+	0xff8566, 0xff704d, 0xff5c33,
+];
+
+export const CyberpunkScaleColors = [
+	0xff66cc, 0xff66ff, 0xcc66ff, 0x9966ff, 0x6666ff, 0x3366ff, 0x0066ff,
+	0x0066cc, 0x006699, 0x006666,
+];
+
+export const SynthwaveScaleColors = [
+	0xff007f, 0xff005c, 0xff0040, 0xff002d, 0xff001a, 0xcc001a, 0x99001a,
+	0x66001a, 0x33001a, 0x00001a,
+];
+
+export const GalacticExplorerPalette = [
+	0x001f3f, 0x003366, 0x004080, 0x00509e, 0x0060bd, 0x0070db, 0x0080f9,
+	0x4090ff, 0x70a0ff, 0x9fc0ff,
+];
+
+export const VaporwaveDreamPalette = [
+	0xff6eff, 0xcc66ff, 0x9966ff, 0x6666ff, 0x3366ff, 0x0066ff, 0x0066cc,
+	0x006699, 0x006666, 0x006633,
+];
+
+export const NeonCityLightsPalette = [
+	0x00ffcc, 0x33ffcc, 0x66ffcc, 0x99ffcc, 0xccffcc, 0xccff99, 0xccff66,
+	0xccff33, 0xccff00, 0xcccc00,
+];
+
+export const FuturisticTechPalette = [
+	0x33ccff, 0x3399ff, 0x3366ff, 0x3333ff, 0x6633ff, 0x9933ff, 0xcc33ff,
+	0xff33ff, 0xff33cc, 0xff3399,
+];
+
+export const CyberpunkCityPalette = [
+	0xff66cc, 0xff66ff, 0xcc66ff, 0x9966ff, 0x6666ff, 0x3366ff, 0x0066ff,
+	0x0066cc, 0x006699, 0x006666,
+];
+
+export const RetroWavePalette = [
+	0xff0000, 0xff3300, 0xff6600, 0xff9900, 0xffcc00, 0xffff00, 0xccff00,
+	0x99ff00, 0x66ff00, 0x33ff00,
+];
+
+export const ElectricSunrisePalette = [
+	0xff0055, 0xff2266, 0xff4480, 0xff6699, 0xff88b2, 0xffaacb, 0xffcce5,
+	0xfffff0, 0xd9e6f5, 0xb3ccff,
+];
+
+export const MiamiNightsPalette = [
+	0x000000, 0x330000, 0x660000, 0x990000, 0xcc0000, 0xff0000, 0xff3333,
+	0xff6666, 0xff9999, 0xffcccc,
+];
+
+export const AllColorSet = new Set([
+	...BrownScaleColors,
+	...PinkScaleColors,
+	...CyanScaleColors,
+	...GreyBlueScaleColors,
+	...WarmTonesScaleColors,
+	...SunsetScaleColors,
+	...OceanicScaleColors,
+	...AutumnalScaleColors,
+	...MintyScaleColors,
+	...EarthyScaleColors,
+	...LavenderScaleColors,
+	...FireScaleColors,
+	...WinterChillScaleColors,
+	...GoldenrodScaleColors,
+	...MagentaScaleColors,
+	...PastelRainbowScaleColors,
+	...TropicalSunsetScaleColors,
+	...SpringBlossomScaleColors,
+	...CitrusBurstScaleColors,
+	...MoonlitNightScaleColors,
+	...ElectricNeonScaleColors,
+	...CherryBlossomScaleColors,
+	...PumpkinSpiceScaleColors,
+	...JungleAdventureScaleColors,
+	...DeepSeaScaleColors,
+	...TerraCottaScaleColors,
+	...CyberpunkScaleColors,
+	...SynthwaveScaleColors,
+	...GalacticExplorerPalette,
+	...VaporwaveDreamPalette,
+	...NeonCityLightsPalette,
+	...FuturisticTechPalette,
+	...CyberpunkCityPalette,
+	...RetroWavePalette,
+	...ElectricSunrisePalette,
+	...MiamiNightsPalette,
+]);

@@ -1,0 +1,15 @@
+{
+	"name": "event_games_card_game",
+	"module": "server.js",
+	"type": "module",
+	"scripts": {
+		"start": "bun run server.js",
+		"dev": "bun --watch server.js"
+	},
+	"devDependencies": {
+		"bun-types": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
+}

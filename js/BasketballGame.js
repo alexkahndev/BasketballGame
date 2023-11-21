@@ -1,22 +1,21 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
+export function CreateBasketballCourt(){
+    const basketballCourtModel = new THREE.Group();
+    basketballCourtModel.name = "basketballCourtModel";
+    basketballCourtModel.opacity = 0;
 
-export function CreateCar(){
-    const carModel = new THREE.Group();
-    carModel.name = "carModel";
-    carModel.opacity = 0;
-    
     const loader = new GLTFLoader();
     loader.load(
-        './resources/models/car.glb',
+        './resources/models/basketball-court.glb',
         function ( gltf ) {
-            const car = gltf.scene;
-            car.name = "car";
-            car.scale.set(10, 10, 10);
-            car.position.set(0, 20, 0);
-            car.rotation.set(0, Math.PI, 0);
-            carModel.add(car);
+            const basketballCourt = gltf.scene;
+            basketballCourt.name = "basketballCourt";
+            basketballCourt.scale.set(100, 100, 100);
+            basketballCourt.position.set(0, 0, 0);
+            basketballCourt.rotation.set(0, Math.PI / 2, 0);
+            basketballCourtModel.add(basketballCourt);
         },
         function ( xhr ) {
             console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
@@ -26,24 +25,24 @@ export function CreateCar(){
         }
     );
 
-    return carModel;
+    return basketballCourtModel;
 }
 
-export function CreateRoad(){
-    const roadModel = new THREE.Group();
-    roadModel.name = "roadModel";
-    roadModel.opacity = 0;
+export function CreateBasketball(){
+    const basketballModel = new THREE.Group();
+    basketballModel.name = "basketballModel";
+    basketballModel.opacity = 0;
 
     const loader = new GLTFLoader();
     loader.load(
-        './resources/models/road.glb',
+        './resources/models/basketball.glb',
         function ( gltf ) {
-            const road = gltf.scene;
-            road.name = "road";
-            road.scale.set(20, 20, 20);
-            road.position.set(0, 0, 0);
-            road.rotation.set(0, 0, 0);
-            roadModel.add(road);
+            const basketball = gltf.scene;
+            basketball.name = "basketball";
+            basketball.scale.set(0.025, 0.025, 0.025);
+            basketball.position.set(0, 100, 0);
+            basketball.rotation.set(0, Math.PI / 2, 0);
+            basketballModel.add(basketball);
         },
         function ( xhr ) {
             console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
@@ -53,34 +52,7 @@ export function CreateRoad(){
         }
     );
 
-    return roadModel;
-}
-
-export function CreateBillboard(){
-    const billboardModel = new THREE.Group();
-    billboardModel.name = "billboardModel";
-    billboardModel.opacity = 0;
-
-    const loader = new GLTFLoader();
-    loader.load(
-        './resources/models/billboard.glb',
-        function ( gltf ) {
-            const billboard = gltf.scene;
-            billboard.name = "billboard";
-            billboard.scale.set(0.2, 0.2, 0.2);
-            billboard.position.set(150, 0, 0);
-            billboard.rotation.set(0, Math.PI / 2, 0);
-            billboardModel.add(billboard);
-        },
-        function ( xhr ) {
-            console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
-        },
-        function ( error ) {
-            console.log( 'An error happened' );
-        }
-    );
-
-    return billboardModel;
+    return basketballModel;
 }
 
 export function CreateGameProps(gamePropIndexes){
@@ -88,14 +60,11 @@ export function CreateGameProps(gamePropIndexes){
     gamePropsGroup.name = "gameProps";
     gamePropsGroup.opacity = 0;
 
-    const car = CreateCar();
-    gamePropsGroup.add(car);
+    const basketballCourt = CreateBasketballCourt();    
+    gamePropsGroup.add(basketballCourt);
 
-    const road = CreateRoad();
-    gamePropsGroup.add(road);
-
-    const billboard = CreateBillboard();
-    gamePropsGroup.add(billboard);
+    const basketball = CreateBasketball();
+    gamePropsGroup.add(basketball);
 
     gamePropsGroup.children.forEach((prop, index) => {
         gamePropIndexes[prop.name] = index;    

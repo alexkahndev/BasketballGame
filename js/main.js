@@ -1,12 +1,12 @@
 //********************************************************************************************************************
-//  Brand Racing
+//  Brand Basketball
 //  Author: Alex Kahn
 //  ______     __   __   ______     __   __     ______   ______     ______     __    __     ______     ______
 // /\  ___\   /\ \ / /  /\  ___\   /\ "-.\ \   /\__  _\ /\  ___\   /\  __ \   /\ "-./  \   /\  ___\   /\  ___\
 // \ \  __\   \ \ \'/   \ \  __\   \ \ \-.  \  \/_/\ \/ \ \ \__ \  \ \  __ \  \ \ \-./\ \  \ \  __\   \ \___  \
 //  \ \_____\  \ \__|    \ \_____\  \ \_\\"\_\    \ \_\  \ \_____\  \ \_\ \_\  \ \_\ \ \_\  \ \_____\  \/\_____\
 //   \/_____/   \/_/      \/_____/   \/_/ \/_/     \/_/   \/_____/   \/_/\/_/   \/_/  \/_/   \/_____/   \/_____/
-//  Description: A game where you race you car along brand logos.
+//  Description: A game where you shoot basketballs into a hoop.
 //  Resources: sources.txt
 //  Copyright © 2023 EventGames. All rights reserved.
 //********************************************************************************************************************
@@ -23,7 +23,7 @@ import { RGBELoader } from "three/addons/loaders/RGBELoader.js";
 import { SVGLoader } from "three/addons/loaders/SVGLoader.js";
 
 import { TransitionProps } from "./Animations.js";
-import { CreateGameProps, StartGame } from "./RacingGame.js";
+import { CreateGameProps, StartGame } from "./BasketballGame.js";
 
 //********************************************************************************************************************
 //  Global Variables
